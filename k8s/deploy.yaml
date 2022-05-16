@@ -27,7 +27,7 @@ spec:
         app: test-sliit
     spec:
       containers:
-      - image: it19038292/docker_kubernets_cicd_test:7eb339afbf7bfcd3b417e8c4421d49336e13c332
+      - image: it19038292/docker_kubernets_cicd_test:{{tag}}
         imagePullPolicy: Always
         name: docker-kubernets-cicd-test-mbj8v
         resources: {}

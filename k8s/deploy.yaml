@@ -4,6 +4,8 @@ metadata:
   generation: 1
   labels:
     app: test-sliit
+    manager: kubectl
+    operation: Update
   name: test-sliit
   namespace: default
 spec:
@@ -25,9 +27,9 @@ spec:
         app: test-sliit
     spec:
       containers:
-      - image: it19038292/docker_kubernets_cicd_test:9f8f6a7ac70f336bdd41ece3f0e7d4ddfde01665
+      - image: it19038292/docker_kubernets_cicd_test:7eb339afbf7bfcd3b417e8c4421d49336e13c332
         imagePullPolicy: Always
-        name: docker-kubernets-cicd-test-2flz2
+        name: docker-kubernets-cicd-test-mbj8v
         resources: {}
         terminationMessagePath: /dev/termination-log
         terminationMessagePolicy: File
